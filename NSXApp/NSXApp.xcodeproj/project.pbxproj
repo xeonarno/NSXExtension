@@ -1,0 +1,482 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		38C72EAB13BD3A8200877B04 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38C72EAA13BD3A8200877B04 /* UIKit.framework */; };
+		38C72EAD13BD3A8200877B04 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38C72EAC13BD3A8200877B04 /* Foundation.framework */; };
+		38C72EAF13BD3A8200877B04 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38C72EAE13BD3A8200877B04 /* CoreGraphics.framework */; };
+		38C72EB513BD3A8200877B04 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 38C72EB313BD3A8200877B04 /* InfoPlist.strings */; };
+		38C72EB813BD3A8200877B04 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 38C72EB713BD3A8200877B04 /* main.m */; };
+		38C72EBB13BD3A8200877B04 /* NSXAppAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 38C72EBA13BD3A8200877B04 /* NSXAppAppDelegate.m */; };
+		38C72EBF13BD3A8200877B04 /* NSXAppAppDelegate_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 38C72EBE13BD3A8200877B04 /* NSXAppAppDelegate_iPhone.m */; };
+		38C72EC213BD3A8300877B04 /* MainWindow_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 38C72EC013BD3A8300877B04 /* MainWindow_iPhone.xib */; };
+		38C72EC613BD3A8300877B04 /* NSXAppAppDelegate_iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = 38C72EC513BD3A8300877B04 /* NSXAppAppDelegate_iPad.m */; };
+		38C72EC913BD3A8300877B04 /* MainWindow_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 38C72EC713BD3A8300877B04 /* MainWindow_iPad.xib */; };
+		38C72ED013BD3A8300877B04 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38C72EAA13BD3A8200877B04 /* UIKit.framework */; };
+		38C72ED113BD3A8300877B04 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38C72EAC13BD3A8200877B04 /* Foundation.framework */; };
+		38C72ED213BD3A8300877B04 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38C72EAE13BD3A8200877B04 /* CoreGraphics.framework */; };
+		38C72EDA13BD3A8300877B04 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 38C72ED813BD3A8300877B04 /* InfoPlist.strings */; };
+		38C72EDD13BD3A8300877B04 /* NSXAppTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 38C72EDC13BD3A8300877B04 /* NSXAppTests.h */; };
+		38C72EDF13BD3A8300877B04 /* NSXAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 38C72EDE13BD3A8300877B04 /* NSXAppTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		38C72ED313BD3A8300877B04 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 38C72E9D13BD3A8100877B04 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 38C72EA513BD3A8200877B04;
+			remoteInfo = NSXApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		38C72EA613BD3A8200877B04 /* NSXApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NSXApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		38C72EAA13BD3A8200877B04 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		38C72EAC13BD3A8200877B04 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		38C72EAE13BD3A8200877B04 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		38C72EB213BD3A8200877B04 /* NSXApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NSXApp-Info.plist"; sourceTree = "<group>"; };
+		38C72EB413BD3A8200877B04 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		38C72EB613BD3A8200877B04 /* NSXApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSXApp-Prefix.pch"; sourceTree = "<group>"; };
+		38C72EB713BD3A8200877B04 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		38C72EB913BD3A8200877B04 /* NSXAppAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSXAppAppDelegate.h; sourceTree = "<group>"; };
+		38C72EBA13BD3A8200877B04 /* NSXAppAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSXAppAppDelegate.m; sourceTree = "<group>"; };
+		38C72EBD13BD3A8200877B04 /* NSXAppAppDelegate_iPhone.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = NSXAppAppDelegate_iPhone.h; path = iPhone/NSXAppAppDelegate_iPhone.h; sourceTree = "<group>"; };
+		38C72EBE13BD3A8200877B04 /* NSXAppAppDelegate_iPhone.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = NSXAppAppDelegate_iPhone.m; path = iPhone/NSXAppAppDelegate_iPhone.m; sourceTree = "<group>"; };
+		38C72EC113BD3A8300877B04 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = iPhone/en.lproj/MainWindow_iPhone.xib; sourceTree = "<group>"; };
+		38C72EC413BD3A8300877B04 /* NSXAppAppDelegate_iPad.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = NSXAppAppDelegate_iPad.h; path = iPad/NSXAppAppDelegate_iPad.h; sourceTree = "<group>"; };
+		38C72EC513BD3A8300877B04 /* NSXAppAppDelegate_iPad.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = NSXAppAppDelegate_iPad.m; path = iPad/NSXAppAppDelegate_iPad.m; sourceTree = "<group>"; };
+		38C72EC813BD3A8300877B04 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = iPad/en.lproj/MainWindow_iPad.xib; sourceTree = "<group>"; };
+		38C72ECF13BD3A8300877B04 /* NSXAppTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NSXAppTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		38C72ED713BD3A8300877B04 /* NSXAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NSXAppTests-Info.plist"; sourceTree = "<group>"; };
+		38C72ED913BD3A8300877B04 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		38C72EDB13BD3A8300877B04 /* NSXAppTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSXAppTests-Prefix.pch"; sourceTree = "<group>"; };
+		38C72EDC13BD3A8300877B04 /* NSXAppTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSXAppTests.h; sourceTree = "<group>"; };
+		38C72EDE13BD3A8300877B04 /* NSXAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSXAppTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		38C72EA313BD3A8200877B04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38C72EAB13BD3A8200877B04 /* UIKit.framework in Frameworks */,
+				38C72EAD13BD3A8200877B04 /* Foundation.framework in Frameworks */,
+				38C72EAF13BD3A8200877B04 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38C72ECB13BD3A8300877B04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38C72ED013BD3A8300877B04 /* UIKit.framework in Frameworks */,
+				38C72ED113BD3A8300877B04 /* Foundation.framework in Frameworks */,
+				38C72ED213BD3A8300877B04 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		38C72E9B13BD3A8100877B04 = {
+			isa = PBXGroup;
+			children = (
+				38C72EB013BD3A8200877B04 /* NSXApp */,
+				38C72ED513BD3A8300877B04 /* NSXAppTests */,
+				38C72EA913BD3A8200877B04 /* Frameworks */,
+				38C72EA713BD3A8200877B04 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		38C72EA713BD3A8200877B04 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				38C72EA613BD3A8200877B04 /* NSXApp.app */,
+				38C72ECF13BD3A8300877B04 /* NSXAppTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		38C72EA913BD3A8200877B04 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				38C72EAA13BD3A8200877B04 /* UIKit.framework */,
+				38C72EAC13BD3A8200877B04 /* Foundation.framework */,
+				38C72EAE13BD3A8200877B04 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		38C72EB013BD3A8200877B04 /* NSXApp */ = {
+			isa = PBXGroup;
+			children = (
+				38C72EB913BD3A8200877B04 /* NSXAppAppDelegate.h */,
+				38C72EBA13BD3A8200877B04 /* NSXAppAppDelegate.m */,
+				38C72EBC13BD3A8200877B04 /* iPhone */,
+				38C72EC313BD3A8300877B04 /* iPad */,
+				38C72EB113BD3A8200877B04 /* Supporting Files */,
+			);
+			path = NSXApp;
+			sourceTree = "<group>";
+		};
+		38C72EB113BD3A8200877B04 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				38C72EB213BD3A8200877B04 /* NSXApp-Info.plist */,
+				38C72EB313BD3A8200877B04 /* InfoPlist.strings */,
+				38C72EB613BD3A8200877B04 /* NSXApp-Prefix.pch */,
+				38C72EB713BD3A8200877B04 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		38C72EBC13BD3A8200877B04 /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+				38C72EBD13BD3A8200877B04 /* NSXAppAppDelegate_iPhone.h */,
+				38C72EBE13BD3A8200877B04 /* NSXAppAppDelegate_iPhone.m */,
+				38C72EC013BD3A8300877B04 /* MainWindow_iPhone.xib */,
+			);
+			name = iPhone;
+			sourceTree = "<group>";
+		};
+		38C72EC313BD3A8300877B04 /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+				38C72EC413BD3A8300877B04 /* NSXAppAppDelegate_iPad.h */,
+				38C72EC513BD3A8300877B04 /* NSXAppAppDelegate_iPad.m */,
+				38C72EC713BD3A8300877B04 /* MainWindow_iPad.xib */,
+			);
+			name = iPad;
+			sourceTree = "<group>";
+		};
+		38C72ED513BD3A8300877B04 /* NSXAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				38C72EDC13BD3A8300877B04 /* NSXAppTests.h */,
+				38C72EDE13BD3A8300877B04 /* NSXAppTests.m */,
+				38C72ED613BD3A8300877B04 /* Supporting Files */,
+			);
+			path = NSXAppTests;
+			sourceTree = "<group>";
+		};
+		38C72ED613BD3A8300877B04 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				38C72ED713BD3A8300877B04 /* NSXAppTests-Info.plist */,
+				38C72ED813BD3A8300877B04 /* InfoPlist.strings */,
+				38C72EDB13BD3A8300877B04 /* NSXAppTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		38C72EA513BD3A8200877B04 /* NSXApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38C72EE213BD3A8300877B04 /* Build configuration list for PBXNativeTarget "NSXApp" */;
+			buildPhases = (
+				38C72EA213BD3A8200877B04 /* Sources */,
+				38C72EA313BD3A8200877B04 /* Frameworks */,
+				38C72EA413BD3A8200877B04 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NSXApp;
+			productName = NSXApp;
+			productReference = 38C72EA613BD3A8200877B04 /* NSXApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		38C72ECE13BD3A8300877B04 /* NSXAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38C72EE513BD3A8300877B04 /* Build configuration list for PBXNativeTarget "NSXAppTests" */;
+			buildPhases = (
+				38C72ECA13BD3A8300877B04 /* Sources */,
+				38C72ECB13BD3A8300877B04 /* Frameworks */,
+				38C72ECC13BD3A8300877B04 /* Resources */,
+				38C72ECD13BD3A8300877B04 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				38C72ED413BD3A8300877B04 /* PBXTargetDependency */,
+			);
+			name = NSXAppTests;
+			productName = NSXAppTests;
+			productReference = 38C72ECF13BD3A8300877B04 /* NSXAppTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		38C72E9D13BD3A8100877B04 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 38C72EA013BD3A8100877B04 /* Build configuration list for PBXProject "NSXApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 38C72E9B13BD3A8100877B04;
+			productRefGroup = 38C72EA713BD3A8200877B04 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				38C72EA513BD3A8200877B04 /* NSXApp */,
+				38C72ECE13BD3A8300877B04 /* NSXAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		38C72EA413BD3A8200877B04 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38C72EB513BD3A8200877B04 /* InfoPlist.strings in Resources */,
+				38C72EC213BD3A8300877B04 /* MainWindow_iPhone.xib in Resources */,
+				38C72EC913BD3A8300877B04 /* MainWindow_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38C72ECC13BD3A8300877B04 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38C72EDA13BD3A8300877B04 /* InfoPlist.strings in Resources */,
+				38C72EDD13BD3A8300877B04 /* NSXAppTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		38C72ECD13BD3A8300877B04 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		38C72EA213BD3A8200877B04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38C72EB813BD3A8200877B04 /* main.m in Sources */,
+				38C72EBB13BD3A8200877B04 /* NSXAppAppDelegate.m in Sources */,
+				38C72EBF13BD3A8200877B04 /* NSXAppAppDelegate_iPhone.m in Sources */,
+				38C72EC613BD3A8300877B04 /* NSXAppAppDelegate_iPad.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38C72ECA13BD3A8300877B04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38C72EDF13BD3A8300877B04 /* NSXAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		38C72ED413BD3A8300877B04 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 38C72EA513BD3A8200877B04 /* NSXApp */;
+			targetProxy = 38C72ED313BD3A8300877B04 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		38C72EB313BD3A8200877B04 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				38C72EB413BD3A8200877B04 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		38C72EC013BD3A8300877B04 /* MainWindow_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				38C72EC113BD3A8300877B04 /* en */,
+			);
+			name = MainWindow_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		38C72EC713BD3A8300877B04 /* MainWindow_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				38C72EC813BD3A8300877B04 /* en */,
+			);
+			name = MainWindow_iPad.xib;
+			sourceTree = "<group>";
+		};
+		38C72ED813BD3A8300877B04 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				38C72ED913BD3A8300877B04 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		38C72EE013BD3A8300877B04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		38C72EE113BD3A8300877B04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		38C72EE313BD3A8300877B04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NSXApp/NSXApp-Prefix.pch";
+				INFOPLIST_FILE = "NSXApp/NSXApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		38C72EE413BD3A8300877B04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NSXApp/NSXApp-Prefix.pch";
+				INFOPLIST_FILE = "NSXApp/NSXApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		38C72EE613BD3A8300877B04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NSXApp.app/NSXApp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NSXAppTests/NSXAppTests-Prefix.pch";
+				INFOPLIST_FILE = "NSXAppTests/NSXAppTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		38C72EE713BD3A8300877B04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NSXApp.app/NSXApp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NSXAppTests/NSXAppTests-Prefix.pch";
+				INFOPLIST_FILE = "NSXAppTests/NSXAppTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		38C72EA013BD3A8100877B04 /* Build configuration list for PBXProject "NSXApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38C72EE013BD3A8300877B04 /* Debug */,
+				38C72EE113BD3A8300877B04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38C72EE213BD3A8300877B04 /* Build configuration list for PBXNativeTarget "NSXApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38C72EE313BD3A8300877B04 /* Debug */,
+				38C72EE413BD3A8300877B04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		38C72EE513BD3A8300877B04 /* Build configuration list for PBXNativeTarget "NSXAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38C72EE613BD3A8300877B04 /* Debug */,
+				38C72EE713BD3A8300877B04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 38C72E9D13BD3A8100877B04 /* Project object */;
+}
